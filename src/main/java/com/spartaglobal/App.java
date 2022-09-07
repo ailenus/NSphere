@@ -5,6 +5,7 @@ package com.spartaglobal;
  *
  */
 public class App {
+
     public static void main(String[] args) {
         NSphere nSphere = new OneSphere();
         System.out.println(nSphere.getSurfaceArea());
@@ -19,4 +20,5 @@ public class App {
         System.out.println(nSphere.getSurfaceArea());
         System.out.println(nSphere.getVolume());
     }
+
 }

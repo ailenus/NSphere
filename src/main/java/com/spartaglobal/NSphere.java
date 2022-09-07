@@ -1,13 +1,7 @@
 package com.spartaglobal;
 
-/**
- * <!-- MathJax LaTeX used for <math> elements-->
- * An <math>n</math>-sphere is a topological space in the
- * <math>(n + 1)</math>-dimensional Euclidean space defined as
- * <math>S^n (r) = {x \in \mathbb{R}^{n+ 1} : \lVert x\rVert = r}<\math>
- * wherein <math>r<\math> is the radius thereof.
- */
 public abstract class NSphere {
+
     // fields
     private int radius;
 
