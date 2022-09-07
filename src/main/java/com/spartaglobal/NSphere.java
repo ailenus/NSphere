@@ -3,19 +3,19 @@ package com.spartaglobal;
 public abstract class NSphere {
 
     // fields
-    private int radius;
+    private double radius;
 
     // constructors
-    protected NSphere() {
+    public NSphere() {
         this(1);
     }
 
-    protected NSphere(int radius) {
+    public NSphere(int radius) {
         this.radius = radius;
     }
 
     // methods
-    public int getRadius() {
+    public double getRadius() {
         return this.radius;
     }
 
@@ -26,5 +26,18 @@ public abstract class NSphere {
     public abstract double getSurfaceArea();
 
     public abstract double getVolume();
+
+    public void printSufaceArea() {
+        System.out.println("Suface area: " + getSurfaceArea());
+    }
+
+    public void printVoume() {
+        System.out.println("Volume: " + getVolume());
+    }
+
+    public void printAll() {
+        printSufaceArea();
+        printVoume();
+    }
 
 }
