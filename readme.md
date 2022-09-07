@@ -2,7 +2,7 @@
 
 An $n$-sphere is a topological space in the $(n + 1)$-dimensional normed
 Euclidean vector space defined as
-$$S^n(r) = \{x \in \mathbb{R} : \lVert x \rVert = r\}$$
+$$S^n(r) = \\{x \in \mathbb{R} : \lVert x \rVert = r\\}$$
 wherein $r$ is the radius thereof.
 
 This project demonstrates object-oriented design principes using examples of
