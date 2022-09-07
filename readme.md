@@ -7,5 +7,5 @@ wherein $r$ is the radius thereof.
 
 This project demonstrates object-oriented design principes using examples of
 different classes of $n$-spheres. Object-oriented design principles are
-sometimse summarised in the mnemonic &lsquo;APIE&rsquo;&#8212;abstraction,
+sometimes summarised as the mnemonic &lsquo;APIE&rsquo;&#8212;abstraction,
 polymorphism, inheritance, and encapsulation.
