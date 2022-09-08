@@ -32,6 +32,14 @@ public class App {
         nSphere.setRadius(10);
         System.out.println("3-sphere of radius 10");
         nSphere.printAll();
+
+        nSphere = new FourSphere();
+        System.out.println("Unit 4-sphere");
+        nSphere.printAll();
+
+        nSphere.setRadius(10);
+        System.out.println("4-sphere of radius 10");
+        nSphere.printAll();
     }
 
 }
